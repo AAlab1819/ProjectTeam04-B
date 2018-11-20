@@ -75,3 +75,5 @@ After that We will also compare which approach is better.
 #### PROBLEM
 
 #### GREEDY APPROACH
+
+#### DYNAMIC PROGRAMMING APPROACH
