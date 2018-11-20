@@ -86,6 +86,18 @@ After that We will also compare which approach is better.
 
 #### GREEDY APPROACH
 
+The greedy approach's "code" of this problem is quite easy to be understood. But, the biggest question is lie on the 15th line of the code.
+
+  cout << min(res + 2, N) << '\n';
+
+why? The most simple explanation is: "Our best move will only add the length of the longest subsequence by two"
+
+Of course that explanation gives us another 'why?, why only two?'
+
+To make it easier to be understood, we'll se the worse case where all elements of the string are the same, where the longest sequence is one (e.g. : 000000)
+
+As we can see, our best move is to change one of the number between the beginning and the ending (0*0000*0)
+
 #### DYNAMIC PROGRAMMING APPROACH
 
 ## COMPARISON
