@@ -19,9 +19,9 @@ After that We will also compare which approach is better.
 ## HOW TO INSTALL C++11
 [WATCH THIS](https://www.youtube.com/watch?v=1OsGXuNA5cc)
 
-##PROBLEM LINK
+## PROBLEM LINK
 
-##PROBLEM 
+## SUBMISSION LINK 
 
 ## SAMPLE I/O
 #### SAMPLE#1
