@@ -16,8 +16,12 @@ After that We will also compare which approach is better.
 ## REQUIREMENT
 - [C++11](https://osdn.net/projects/mingw/releases/)
 
-## HOW TO INSTALL C+11
+## HOW TO INSTALL C++11
 [WATCH THIS](https://www.youtube.com/watch?v=1OsGXuNA5cc)
+
+##PROBLEM LINK
+
+##PROBLEM 
 
 ## SAMPLE I/O
 #### SAMPLE#1
