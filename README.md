@@ -25,9 +25,9 @@ After that We will also compare which approach is better.
 
 ## SUBMISSION LINK 
 
-Greedy
+[Greedy](https://github.com/AAlab1819/ProjectTeam04-B/blob/master/603A-Greedy.cpp)
 
-Dynamic Programming
+[Dynamic Programming](https://github.com/AAlab1819/ProjectTeam04-B/blob/master/603A-DP.cpp)
 
 ## SAMPLE I/O
 #### SAMPLE#1
@@ -61,7 +61,7 @@ Dynamic Programming
 ```
 5
 10101
-```
+``` 
 *OUTPUT :*
 ```
 5
