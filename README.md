@@ -21,7 +21,13 @@ After that We will also compare which approach is better.
 
 ## PROBLEM LINK
 
+[603A - Alternative Thinking](http://codeforces.com/problemset/problem/603/A)
+
 ## SUBMISSION LINK 
+
+Greedy
+
+Dynamic Programming
 
 ## SAMPLE I/O
 #### SAMPLE#1
