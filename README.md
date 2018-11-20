@@ -97,11 +97,12 @@ Of course that explanation gives us another why, "why at most two?"
 
 It won't add more than two if the initial subsequence is n-1 or n, because it can't be more than n.
 
-But why two two? Because we can only change one substring and from that one substring "the effective flippable number" at most is only two numbers, more than that won't effect the longest subsequence. Changing a substring of same numbers (000... or 111...) won't help us.
+But why two? Because we can only change one substring and from that one substring "the effective flippable number" at most is only two numbers, more than that won't effect the longest subsequence. Changing a substring of same numbers (000... or 111...) won't help us.
 
-There are 2 possibilities:
+There are 3 possibilities:
   1. (1/0)...(a subsequence begins with 1/0 respectively), then whatever we change between ... will make the first number is useful, so we will get another two numbers (the first number, and the number we flip)
   2. (10/01)...(a subsequence begins with 01/10 respectively), then we will flip the first two numbers, so we will get another two numbers (the first number, and the number we flip)
+  3. The string is already the best sequence 
   
   Note: ... is not a subsequence
 
