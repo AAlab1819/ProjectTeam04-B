@@ -86,17 +86,24 @@ After that We will also compare which approach is better.
 
 #### GREEDY APPROACH
 
-The greedy approach's "code" of this problem is quite easy to be understood. But, the biggest question is lie on the 15th line of the code.
+The greedy approach's "code" of this problem is quite easy to be understood. We only need to count how many "01" or "10" in the string.
+But, the biggest question is lie on the 15th line of the code.
 
   cout << min(res + 2, N) << '\n';
 
-why? The most simple explanation is: "Our best move will only add the length of the longest subsequence by two"
+why? The most simple explanation is: "Our best move will only add the length of the longest subsequence at most by two"
 
-Of course that explanation gives us another 'why?, why only two?'
+Of course that explanation gives us another why, "why at most two?"
 
-To make it easier to be understood, we'll se the worse case where all elements of the string are the same, where the longest sequence is one (e.g. : 000000)
+It won't add more than two if the initial subsequence is n-1 or n, because it can't be more than n.
 
-As we can see, our best move is to change one of the number between the beginning and the ending (0*0000*0)
+But why two two? Because we can only change one substring and from that one substring "the effective flippable number" at most is only two numbers, more than that won't effect the longest subsequence. Changing a substring of same numbers (000... or 111...) won't help us.
+
+There are 2 possibilities:
+  1. (1/0)...(a subsequence begins with 1/0 respectively), then whatever we change between ... will make the first number is useful, so we will get another two numbers (the first number, and the number we flip)
+  2. (10/01)...(a subsequence begins with 01/10 respectively), then we will flip the first two numbers, so we will get another two numbers (the first number, and the number we flip)
+  
+  Note: ... is not a subsequence
 
 #### DYNAMIC PROGRAMMING APPROACH
 
