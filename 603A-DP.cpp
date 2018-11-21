@@ -20,6 +20,6 @@ int main() {
         dp[i][2] = max(dp[i-1][1] + (s[i]==s[i-1]) , dp[i-1][2] + (s[i]!=s[i-1]));
     }
     
-    cout << max (max (dp[n-1][0],dp[n-1][1]),dp[n-1][2]);
+    cout <<dp[n-1][2];
     return 0;
 }
