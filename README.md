@@ -25,9 +25,9 @@ After that We will also compare which approach is better.
 
 ## SUBMISSION LINK 
 
-[Greedy](https://github.com/AAlab1819/ProjectTeam04-B/blob/master/603A-Greedy.cpp)
+[Greedy](https://codeforces.com/contest/603/submission/46015288)
 
-[Dynamic Programming](https://github.com/AAlab1819/ProjectTeam04-B/blob/master/603A-DP.cpp)
+[Dynamic Programming](https://codeforces.com/contest/603/submission/46015214)
 
 ## SAMPLE I/O
 #### SAMPLE#1
