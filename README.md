@@ -108,3 +108,4 @@ There are two possibilities:
 #### DYNAMIC PROGRAMMING APPROACH
 
 ## COMPARISON
+--time , memory dibandingin
