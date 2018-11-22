@@ -120,9 +120,9 @@ For example:
 
 First variable:   1 2 3 4 4 5 6 6 6 7
 
-Second Variable:  1 2 3 4 __**5**__ 6 7 7 7 8
+Second Variable:  1 2 3 4 **5** 6 7 7 7 8
 
-Third Variable:   1 2 3 4 5 6 7 __**8**__ 8 9
+Third Variable:   1 2 3 4 5 6 7 **8** 8 9
 
 As we can see, the program start to flip on the 5th element, and stop the 8th element.
 How do we know it? On the second variable, the answer is higher when we start to flip the string, and on the third variable is start to be higher than the second variable on the 8th element, which means it would be better if we don't (stop) flip the 8th element.
@@ -130,4 +130,7 @@ How do we know it? On the second variable, the answer is higher when we start to
 So the answer will be: **10101010**0**1**, which has the length of 9
 
 ## COMPARISON
---time , memory dibandingin
+
+From what we see from the result on codeforces, both Greedy and Dynamic Programming have the same time. But Dynammic Programming use more memory than th Greedy because DP use three variables to store the condition, and Greedy is only using one variable, which store the same value as DP's first variable.
+
+bsk lanjut deh, ini belum selesai wkwkwk
