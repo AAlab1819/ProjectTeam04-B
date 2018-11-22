@@ -107,5 +107,24 @@ There are two possibilities:
 
 #### DYNAMIC PROGRAMMING APPROACH
 
+With dynamic programming, we'll use three variables to get what's the best choice until that point. Those three variables have different use:
+  1. The first variable is to know how long the subsequence at a certain point of the string
+  2. The second variable is to know when we'll start to "flip" the string
+  3. The third variable is to check would it be better if we reflip the string (undo). We can say that the third variable is to know when will we stop the "flipping"
+  
+For example:
+
+10
+1010010001
+
+First variable:   1 2 3 4 4 5 6 6 6 7
+Second Variable:  1 2 3 4 **5** 6 7 7 7 8
+Third Variable:   1 2 3 4 5 6 7 **8** 8 9
+
+As we can see, the program start to flip on the 5th element, and stop the 8th element.
+How do we know it? On the second variable, the answer is higher when we start to flip the string, and on the third variable is start to be higher than the second variable on the 8th element, which means it would be better if we don't (stop) flip the 8th element.
+
+So the answer will be: **10101010**0**1**, which has the length of 9
+
 ## COMPARISON
 --time , memory dibandingin
