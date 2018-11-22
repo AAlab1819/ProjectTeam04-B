@@ -115,6 +115,7 @@ With dynamic programming, we'll use three variables to get what's the best choic
 For example:
 
 10
+
 1010010001
 
 First variable:   1 2 3 4 4 5 6 6 6 7
