@@ -118,7 +118,9 @@ For example:
 1010010001
 
 First variable:   1 2 3 4 4 5 6 6 6 7
+
 Second Variable:  1 2 3 4 **5** 6 7 7 7 8
+
 Third Variable:   1 2 3 4 5 6 7 **8** 8 9
 
 As we can see, the program start to flip on the 5th element, and stop the 8th element.
