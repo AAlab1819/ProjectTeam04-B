@@ -91,7 +91,9 @@ Ini belum
 The greedy approach's "code" of this problem is quite easy to be understood. We only need to count how many "01" or "10" in the string.
 But, the biggest question is lie on the 15th line of the code.
 
+```c++
   cout << min(res + 2, N) << '\n';
+  ```
 
 why? The most simple explanation is: "Our best move will only add the length of the longest subsequence at most by two"
 
@@ -114,6 +116,15 @@ With dynamic programming, we'll use three variables to get what's the best choic
   2. The second variable is to know when we'll start to "flip" the string
   3. The third variable is to check would it be better if we reflip the string (undo). We can say that the third variable is to know when will we stop the "flipping"
   
+  Here is the code:
+  
+```c++
+for(int i=1;i<s.length();i++){
+        dp[i][0] = dp[i-1][0] + (s[i]!=s[i-1]);
+        dp[i][1] = max (dp[i-1][0] + (s[i]==s[i-1]) , dp[i-1][1] + (s[i]!=s[i-1]));
+        dp[i][2] = max(dp[i-1][1] + (s[i]==s[i-1]) , dp[i-1][2] + (s[i]!=s[i-1]));
+    }
+```
 For example:
 
 10
@@ -133,6 +144,3 @@ So the answer will be: **10101010**0**1**, which has the length of 9
 
 ## COMPARISON
 
-From what we see from the result on codeforces, both Greedy and Dynamic Programming have the same time. But Dynammic Programming use more memory than th Greedy because DP use three variables to store the condition, and Greedy is only using one variable, which store the same value as DP's first variable.
-
-bsk lanjut deh, ini belum selesai wkwkwk
