@@ -138,7 +138,7 @@ Why? Because if the "flipped" string doesn't get higher, then it means that we h
   
 Example:
 
-```c++
+<pre>
 10
 
 1010010001
@@ -148,7 +148,7 @@ First variable:   1 2 3 4 4 5 6 6 6 7
 Second Variable:  1 2 3 4 **5** 6 7 7 7 8
 
 Third Variable:   1 2 3 4 5 6 7 **8** 8 9
-```
+</pre>
  
 As we can see, the program start to flip on the 5th element, and stop the 8th element.
 How do we know it? On the second variable, the answer is higher when we start to flip the string, and on the third variable is start to be higher than the second variable on the 8th element, which means it would be better if we don't (stop) flip the 8th element.
@@ -167,7 +167,7 @@ We'll compare both methods base on three parameter:
 Both best complexity is Ω(1) where the n is one
 Both worst complexity is O(n)
 
-Both methods have the same complexity because both only have a single loop (loop complexity = O(n)
+Both methods have the same complexity because both only have a single loop (loop complexity = O(n))
 
 ### 2. Simulated Time
 | n  | Greedy | DP | 
