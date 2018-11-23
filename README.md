@@ -84,6 +84,8 @@ After that We will also compare which approach is better.
 
 #### PROBLEM
 
+Ini belum
+
 #### GREEDY APPROACH
 
 The greedy approach's "code" of this problem is quite easy to be understood. We only need to count how many "01" or "10" in the string.
