@@ -120,12 +120,27 @@ With dynamic programming, we'll use three variables to get what's the best choic
   
 ```c++
 for(int i=1;i<s.length();i++){
-        dp[i][0] = dp[i-1][0] + (s[i]!=s[i-1]);
-        dp[i][1] = max (dp[i-1][0] + (s[i]==s[i-1]) , dp[i-1][1] + (s[i]!=s[i-1]));
-        dp[i][2] = max(dp[i-1][1] + (s[i]==s[i-1]) , dp[i-1][2] + (s[i]!=s[i-1]));
+        dp[i][0] = dp[i-1][0] + (s[i]!=s[i-1]); //first variable
+        dp[i][1] = max (dp[i-1][0] + (s[i]==s[i-1]) , dp[i-1][1] + (s[i]!=s[i-1])); //second variable
+        dp[i][2] = max(dp[i-1][1] + (s[i]==s[i-1]) , dp[i-1][2] + (s[i]!=s[i-1])); //third variable
     }
 ```
-For example:
+
+On the first variable, as explained before is to check how long the subsequence at a certain point. If (s[i]!=s[i-1]) is true, and the value will be one, so it will add the number of the subsequence by one.
+
+On the second variable, we have to choose which is higher between two things:
+  1. The "Original" next element is same or not
+  2. The "alternative 1" next element is different or not
+
+Why? Because by logic, If it has the same element, we'll start the flip to make the subsequence better.
+
+On the third variable, we have to choose which is higher between two things:
+  1. The "Alternative 1" next element is same or not
+  2. The "alternative 2" next element is different or not
+
+Why? Because if the "flipped" string doesn't get higher, then it means that we have to stop the flip.
+  
+Example:
 
 10
 
