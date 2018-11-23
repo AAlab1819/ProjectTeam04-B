@@ -185,6 +185,8 @@ Both methods have the same complexity because both only have a single loop (loop
 
 As we can see, since both methods have the same time complexity, so both of simulated time is not to different.
 
+![NtoTime](https://github.com/AAlab1819/ProjectTeam04-B/blob/master/chart.png)<br>
+
 ### 3. Memory
 
 As we can see from the program, the dynamic programming uses more memory (3x of greedy) since it use a multi-dimension of array and greedy only use a one-dimensional array.
