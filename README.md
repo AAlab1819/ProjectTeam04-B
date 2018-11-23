@@ -105,7 +105,7 @@ There are two possibilities:
   1. (1/0)...(a subsequence begins with 1/0 respectively), then whatever we change between ... will make the first number is useful, so we will get another two numbers (the first number, and the number we flip)
   2. (10/01)...(a subsequence begins with 01/10 respectively), then we will flip the first two numbers, so we will get another two numbers, (the first two numbers will be useful).
   
-  Note: ... is not a subsequence
+  Note: ... is not part of the subsequence
 
 #### DYNAMIC PROGRAMMING APPROACH
 
