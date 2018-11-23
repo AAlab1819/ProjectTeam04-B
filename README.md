@@ -25,9 +25,9 @@ After that We will also compare which approach is better.
 
 ## SUBMISSION LINK 
 
-[Greedy](https://codeforces.com/contest/603/submission/46015288)
+[Greedy](https://codeforces.com/contest/603/submission/46122536)
 
-[Dynamic Programming](https://codeforces.com/contest/603/submission/46015214)
+[Dynamic Programming](https://codeforces.com/contest/603/submission/46122328)
 
 ## SAMPLE I/O
 #### SAMPLE#1
