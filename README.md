@@ -159,3 +159,36 @@ So the answer will be: **10101010**0**1**, which has the length of 9
 
 ## COMPARISON
 
+We'll compare both methods base on three parameter:
+  1. Complexity
+  2. Simulated Time
+  3. Memory
+  
+### 1. Complexity
+
+Both best complexity is Ω(1) where the n is one
+Both worst complexity is O(n)
+
+Both methods have the same complexity because both only have a single loop (loop complexity = O(n)
+
+### 2. Simulated Time
+| n  | Greedy | DP | 
+| :---: | :---: | :---: |
+| 1 | 0.0 | 0.0 |
+| 10 | 0.0 | 0.0 |
+| 100 | 0.0 | 0.0 |
+| 1000 | 0.0 | 0.0 |
+| 10000 | 0.001 | 0.0009 |
+| 100000 | 0.0069 | 0.006 |
+| 1000000 | 0.0579 | 0.06 |
+| 1000000 | 0.69 | 0.6 |
+
+As we can see, since both methods have the same time complexity, so both of simulated time is not to different.
+
+### 3. Memory
+
+As we can see from the program, the dynamic programming uses more memory (3x of greedy) since it use a multi-dimension of array and greedy only use a one-dimensional array.
+
+## CONCLUSION
+
+Since both almost have the same time complexity (as we can see the simulated time) but the DP uses more memory, we conclude that **GREEDY** method perform better than DP in solving our test case.
